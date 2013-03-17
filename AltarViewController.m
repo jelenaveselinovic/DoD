@@ -6,15 +6,15 @@
 //  Copyright (c) 2013 Learning Technologies Group. All rights reserved.
 //
 
-#import "OrderViewController.h"
+#import "AltarViewController.h"
 #import "AppDelegate.h"
 
 
-@interface OrderViewController ()
+@interface AltarViewController ()
 @property (nonatomic,strong) PlanetObservationModel *planetModel;
 @end
 
-@implementation OrderViewController
+@implementation AltarViewController
 //@synthesize reasonPicker = _reasonPicker;
 @synthesize reasonPopover = _reasonPopover;
 @synthesize allDropAreas = _allDropAreas;

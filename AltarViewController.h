@@ -10,7 +10,7 @@
 #import "OrderReasonViewController.h"
 #import "PlanetObservationModel.h"
 
-@interface OrderViewController : UIViewController<OrderReasonDelegate, OthersOrderDelegate>
+@interface AltarViewController : UIViewController<OrderReasonDelegate, OthersOrderDelegate>
 {
     //OrderReasonViewController * _reasonPicker;
     UIPopoverController * _reasonPopover;

@@ -200,7 +200,7 @@
 		84F352D116507EAA00DEB764 /* orangeLg.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F352CB16507EAA00DEB764 /* orangeLg.png */; };
 		84F352D216507EAA00DEB764 /* pinkLg.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F352CC16507EAA00DEB764 /* pinkLg.png */; };
 		84F352D316507EAA00DEB764 /* purpleLg.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F352CD16507EAA00DEB764 /* purpleLg.png */; };
-		84F9826E16B43F0A00804BE4 /* OrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F9826D16B43F0A00804BE4 /* OrderViewController.m */; };
+		84F9826E16B43F0A00804BE4 /* AltarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F9826D16B43F0A00804BE4 /* AltarViewController.m */; };
 		852DCB1516B87AA5002D4B50 /* planet_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 852DCB1416B87AA5002D4B50 /* planet_bg.png */; };
 		852DCB3216B8895F002D4B50 /* p_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 852DCB2A16B8895F002D4B50 /* p_blue.png */; };
 		852DCB3316B8895F002D4B50 /* p_brown.png in Resources */ = {isa = PBXBuildFile; fileRef = 852DCB2B16B8895F002D4B50 /* p_brown.png */; };
@@ -471,8 +471,8 @@
 		84F352CB16507EAA00DEB764 /* orangeLg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orangeLg.png; sourceTree = "<group>"; };
 		84F352CC16507EAA00DEB764 /* pinkLg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pinkLg.png; sourceTree = "<group>"; };
 		84F352CD16507EAA00DEB764 /* purpleLg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = purpleLg.png; sourceTree = "<group>"; };
-		84F9826C16B43F0A00804BE4 /* OrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderViewController.h; sourceTree = SOURCE_ROOT; };
-		84F9826D16B43F0A00804BE4 /* OrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderViewController.m; sourceTree = SOURCE_ROOT; };
+		84F9826C16B43F0A00804BE4 /* AltarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AltarViewController.h; sourceTree = SOURCE_ROOT; };
+		84F9826D16B43F0A00804BE4 /* AltarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AltarViewController.m; sourceTree = SOURCE_ROOT; };
 		852DCB1416B87AA5002D4B50 /* planet_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = planet_bg.png; path = Planets/planet_bg.png; sourceTree = "<group>"; };
 		852DCB2A16B8895F002D4B50 /* p_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = p_blue.png; sourceTree = "<group>"; };
 		852DCB2B16B8895F002D4B50 /* p_brown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = p_brown.png; sourceTree = "<group>"; };
@@ -522,7 +522,7 @@
 				855A893D16B8327C002C8FB7 /* Helio_Icon2X.png */,
 				8401631B16499209002F9F9C /* icon_144.png */,
 				700C3B3216042F52005A9E34 /* XMPPFramework.h */,
-				84AECEB316856C420070B419 /* HelioRoom */,
+				84AECEB316856C420070B419 /* DayofDead */,
 				842B72B616C20F9600B976BA /* sbjson */,
 				84EB1234161F688000CECA43 /* images */,
 				700C3B3D1604313F005A9E34 /* Extension */,
@@ -901,7 +901,7 @@
 			path = SubmitAnimation;
 			sourceTree = "<group>";
 		};
-		84AECEB316856C420070B419 /* HelioRoom */ = {
+		84AECEB316856C420070B419 /* DayofDead */ = {
 			isa = PBXGroup;
 			children = (
 				849D0AE716B436F200F8002D /* TheoriesViewController.h */,
@@ -914,8 +914,8 @@
 				84EC38271614C1B500C16BE6 /* PlanetObservationModel.m */,
 				843739FE1613A615006D7253 /* ChooseInFrontViewController.h */,
 				843739FF1613A615006D7253 /* ChooseInFrontViewController.m */,
-				84F9826C16B43F0A00804BE4 /* OrderViewController.h */,
-				84F9826D16B43F0A00804BE4 /* OrderViewController.m */,
+				84F9826C16B43F0A00804BE4 /* AltarViewController.h */,
+				84F9826D16B43F0A00804BE4 /* AltarViewController.m */,
 				8474EC5C16B45CEB00FA0EA7 /* OrderReasonViewController.h */,
 				8474EC5D16B45CEB00FA0EA7 /* OrderReasonViewController.m */,
 				84103A0816BACB7000B89583 /* ScratchPadViewController.h */,
@@ -923,7 +923,7 @@
 				7190937916E99E61009F3FA6 /* TouchTextField.h */,
 				7190937A16E99E61009F3FA6 /* TouchTextField.m */,
 			);
-			name = HelioRoom;
+			name = DayofDead;
 			sourceTree = "<group>";
 		};
 		84D5493C16229A5E0075940E /* Planets */ = {
@@ -1381,7 +1381,7 @@
 				84137FD91648421800045E7E /* ChoosePlanetViewController.m in Sources */,
 				849D0AEB16B436F200F8002D /* TheoriesViewController.m in Sources */,
 				849D0AEC16B436F200F8002D /* TheoryReasonViewController.m in Sources */,
-				84F9826E16B43F0A00804BE4 /* OrderViewController.m in Sources */,
+				84F9826E16B43F0A00804BE4 /* AltarViewController.m in Sources */,
 				8474EC5E16B45CEB00FA0EA7 /* OrderReasonViewController.m in Sources */,
 				84D680AF16B9BADF001BC26A /* HelioRoomModel.xcdatamodeld in Sources */,
 				84103A0A16BACB7000B89583 /* ScratchPadViewController.m in Sources */,
